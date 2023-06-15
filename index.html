@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>conditional_js</title>
+</head>
+<body>
+
+    <p id="grade"></p>
+    <script>
+
+        let mark =100;
+
+        if (mark >= 70 && mark <= 99)  {
+            document.getElementById('grade').innerHTML="GRADE A"
+            console.log('GRADE A')
+        
+        }
+
+        else if(mark >= 60 && mark <= 70){
+            document.getElementById('grade').innerHTML="GRADE B"
+            console.log('GRADE B')
+        }
+
+        else if(mark >= 50 && mark <= 60){
+            document.getElementById('grade').innerHTML="GRADE C"
+            console.log('GRADE C')
+        }
+        
+        else if(mark >=40 && mark <=45){
+            document.getElementById('grade').innerHTML="GRADE D"
+            console.log('GRADE D')
+        }
+
+        else if(mark >=30 && mark <=35){
+            document.getElementById('grade').innerHTML="GRADE E"
+            console.log('GRADE E')
+        }
+
+        else if (mark >= 20 && mark <=25){
+            document.getElementById('grade').innerHTML="GRADE F"
+            console.log('GRADE F')
+        }
+
+
+        else{
+            document.getElementById('grade').innerHTML="INVALID RESULTS.."
+          
+            console.log('INVALID RESULTS.!')
+        }
+
+        
+    </script>
+
+
+
+
+
+
+
+
+
+    
+</body>
+</html>
